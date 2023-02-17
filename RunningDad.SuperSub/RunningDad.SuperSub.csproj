@@ -49,6 +49,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\RunningDad.SuperSub.Application\RunningDad.SuperSub.Application.csproj" />
 	  <ProjectReference Include="..\RunningDad.SuperSub.Models\RunningDad.SuperSub.Models.csproj" />
 	</ItemGroup>
 	<ItemGroup>
