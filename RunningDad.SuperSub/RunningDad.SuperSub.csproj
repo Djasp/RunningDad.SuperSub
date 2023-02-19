@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>net6.0-android;net6.0-ios</TargetFrameworks>
@@ -49,6 +49,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\RunningDad.SuperSub.Application\RunningDad.SuperSub.Abstractions.csproj" />
 	  <ProjectReference Include="..\RunningDad.SuperSub.Application\RunningDad.SuperSub.Application.csproj" />
 	  <ProjectReference Include="..\RunningDad.SuperSub.Models\RunningDad.SuperSub.Models.csproj" />
 	</ItemGroup>
