@@ -9,9 +9,12 @@ public static class MauiProgram
 			.UseMauiApp<App>()
 			.ConfigureFonts(fonts =>
 			{
-				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-			});
+                fonts.AddFont("Lobster-Regular.ttf", "LobsterRegular");
+                fonts.AddFont("Raleway-Bold.ttf", "RalewayBold");
+                fonts.AddFont("Raleway-Regular.ttf", "RalewayRegular");
+                fonts.AddFont("Raleway-Light.ttf", "RalewayLight");
+                fonts.AddFont("Raleway-Italic.ttf", "RalewayItalic");
+            });
 
 		return builder.Build();
 	}

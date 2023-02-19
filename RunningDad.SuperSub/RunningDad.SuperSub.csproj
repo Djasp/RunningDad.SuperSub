@@ -54,8 +54,18 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <None Remove="Newtonsoft.Json" />
+	  <None Remove="Resources\Fonts\Lobster-Regular.ttf" />
+	  <None Remove="Resources\Fonts\Raleway-Bold.ttf" />
+	  <None Remove="Resources\Fonts\Raleway-Light.ttf" />
+	  <None Remove="Resources\Fonts\Raleway-Regular.ttf" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Resources\Fonts\Lobster-Regular.ttf" />
+	  <BundleResource Include="Resources\Fonts\Raleway-Bold.ttf" />
+	  <BundleResource Include="Resources\Fonts\Raleway-Light.ttf" />
+	  <BundleResource Include="Resources\Fonts\Raleway-Regular.ttf" />
 	</ItemGroup>
 </Project>

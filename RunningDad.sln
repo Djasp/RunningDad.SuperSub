@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunningDad.SuperSub.Tests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunningDad.SuperSub.Models", "RunningDad.SuperSub.Models\RunningDad.SuperSub.Models.csproj", "{90029BB4-6DD2-4A63-A5AB-B1A376B279E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunningDad.SuperSub.Application", "RunningDad.SuperSub.Application\RunningDad.SuperSub.Application.csproj", "{33C95041-D4B8-4D7B-96FA-8F599258B916}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunningDad.SuperSub.Abstractions", "RunningDad.SuperSub.Application\RunningDad.SuperSub.Abstractions.csproj", "{33C95041-D4B8-4D7B-96FA-8F599258B916}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

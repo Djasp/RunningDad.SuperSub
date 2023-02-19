@@ -7,7 +7,7 @@
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="Home"
+        Title="Super Sub - de wisseltimer"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 

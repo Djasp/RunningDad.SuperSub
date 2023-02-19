@@ -1,11 +1,11 @@
 using RunningDad.SuperSub.Models;
 
-namespace RunningDad.SuperSub.Application.Helpers;
+namespace RunningDad.SuperSub.Abstractions.Helpers;
 
 public class GameHelper
 {
     public Game StartGame()
     {
-        
+        return new Game();
     }
 }
