@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunningDad.SuperSub", "RunningDad.SuperSub\RunningDad.SuperSub.csproj", "{78619725-9E98-4871-BD88-27A54BB75950}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunningDad.SuperSub", "RunningDad.SuperSub\RunningDad.SuperSub.csproj", "{78619725-9E98-4871-BD88-27A54BB75950}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunningDad.SuperSub.Tests", "RunningDad.SuperSub.Tests\RunningDad.SuperSub.Tests.csproj", "{9E89E82E-D8A7-4F32-9FE7-29CC3CE9B179}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunningDad.SuperSub.Models", "RunningDad.SuperSub.Models\RunningDad.SuperSub.Models.csproj", "{90029BB4-6DD2-4A63-A5AB-B1A376B279E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunningDad.SuperSub.Abstractions", "RunningDad.SuperSub.Application\RunningDad.SuperSub.Abstractions.csproj", "{33C95041-D4B8-4D7B-96FA-8F599258B916}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunningDad.SuperSub.Abstractions", "RunningDad.SuperSub.Abstractions\RunningDad.SuperSub.Abstractions.csproj", "{33C95041-D4B8-4D7B-96FA-8F599258B916}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,5 +41,16 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = application/xaml
+		$0.XmlFormattingPolicy = $3
+		$3.inheritsSet = null
+		$3.scope = application/xaml
 	EndGlobalSection
 EndGlobal
