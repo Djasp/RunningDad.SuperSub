@@ -13,7 +13,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 
 		<!-- Display name -->
-		<ApplicationTitle>RunningDad.SuperSub</ApplicationTitle>
+		<ApplicationTitle>SuperSub</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>nl.runningdad.supersub</ApplicationId>
@@ -39,10 +39,10 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#FF3300" />
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#FF3300" BaseSize="256,256" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#FF3300" Resize="false" />
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#FF3300" Resize="false"/>
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
