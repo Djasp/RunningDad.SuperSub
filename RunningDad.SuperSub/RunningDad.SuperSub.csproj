@@ -62,9 +62,11 @@
 	  <None Remove="Resources\Fonts\Raleway-Bold.ttf" />
 	  <None Remove="Resources\Fonts\Raleway-Light.ttf" />
 	  <None Remove="Resources\Fonts\Raleway-Regular.ttf" />
+	  <None Remove="sqlite-net-pcl" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+	  <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
 	</ItemGroup>
 	<ItemGroup>
 	  <BundleResource Include="Resources\Fonts\Lobster-Regular.ttf" />
