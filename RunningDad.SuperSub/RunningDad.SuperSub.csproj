@@ -42,7 +42,7 @@
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#FF3300" BaseSize="256,256" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#FF3300" Resize="false"/>
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#FF3300" Resize="false" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -54,7 +54,6 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\RunningDad.SuperSub.Abstractions\RunningDad.SuperSub.Abstractions.csproj" />
-	  <ProjectReference Include="..\RunningDad.SuperSub.Models\RunningDad.SuperSub.Models.csproj" />
 	</ItemGroup>
 	<ItemGroup>
 	  <None Remove="Newtonsoft.Json" />
