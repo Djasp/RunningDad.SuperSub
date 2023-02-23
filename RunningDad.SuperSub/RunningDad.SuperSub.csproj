@@ -73,4 +73,15 @@
 	  <BundleResource Include="Resources\Fonts\Raleway-Light.ttf" />
 	  <BundleResource Include="Resources\Fonts\Raleway-Regular.ttf" />
 	</ItemGroup>
+	<ItemGroup>
+	  <MauiXaml Update="Pages\TeamsPage.xaml">
+	    <SubType>Designer</SubType>
+	  </MauiXaml>
+	</ItemGroup>
+	<ItemGroup>
+	  <Compile Update="Pages\TeamsPage.xaml.cs">
+	    <DependentUpon>TeamsPage.xaml</DependentUpon>
+	    <SubType>Code</SubType>
+	  </Compile>
+	</ItemGroup>
 </Project>
